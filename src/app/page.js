@@ -1,11 +1,10 @@
-import Link from "next/link";
+"use client";
+import React from "react";
 
 export default function Home() {
   return (
     <main>
-      <Link className="link" href={{ pathname: "/questions" }}>
-        Go to Questions Page
-      </Link>
+      <div>Landing Page</div>
     </main>
   );
 }
